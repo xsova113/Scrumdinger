@@ -105,9 +105,9 @@
 		8680731729A0756A00D8B94D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8680731A29A0793400D8B94D /* DailyScrum.swift */,
 				8680733829A383D200D8B94D /* AVPlayer+Ding.swift */,
 				8680731829A0758F00D8B94D /* Theme.swift */,
-				8680731A29A0793400D8B94D /* DailyScrum.swift */,
 				8680733129A3115800D8B94D /* ScrumTimer.swift */,
 			);
 			path = Models;
