@@ -13,7 +13,6 @@ struct ScrumsView: View {
     @State private var isPresentingNewScrumView = false
     @State private var newScrumData = DailyScrum.Data()
     
-    
     var body: some View {
         List($scrums, selection: $multiSelection) { $scrum in
             NavigationLink {
@@ -38,6 +37,7 @@ struct ScrumsView: View {
                 .accessibilityLabel("New Scrum")
             })
         }
+        
         .sheet(isPresented: $isPresentingNewScrumView) {
             NavigationStack {
                 DetailEditView(data: $newScrumData)
