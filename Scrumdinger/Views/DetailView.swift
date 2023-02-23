@@ -64,6 +64,9 @@ struct DetailView: View {
                         }
                     }
                 }
+                .onDelete { indice in
+                    scrum.history.remove(atOffsets: indice)
+                }
             } header: {
                 Text("History")
             }
