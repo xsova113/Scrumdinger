@@ -28,7 +28,7 @@ struct DetailEditView: View {
             } header: {
                 Text("Meeting Info")
             }
-            
+
             Section {
                 ForEach(data.attendees) { attendee in
                     Text(attendee.name)
